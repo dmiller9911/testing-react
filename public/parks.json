@@ -1,0 +1,533 @@
+[
+  {
+    "name": "Acadia",
+    "location": "Maine",
+    "maxElevation": 1530,
+    "minElevation": 0,
+    "size": 4745280,
+    "establishedDate": "6/8/1916",
+    "id": "acadia"
+  },
+  {
+    "name": "American Samoa",
+    "location": "American Samoa",
+    "maxElevation": 3159,
+    "minElevation": 0,
+    "size": 13500,
+    "establishedDate": "10/31/1988",
+    "id": "american_samoa"
+  },
+  {
+    "name": "Arches",
+    "location": "Utah",
+    "maxElevation": 5653,
+    "minElevation": 4085,
+    "size": 76679,
+    "establishedDate": "4/12/1929",
+    "id": "arches"
+  },
+  {
+    "name": "Badlands",
+    "location": "South Dakota",
+    "maxElevation": 3340,
+    "minElevation": 2365,
+    "size": 24275594,
+    "establishedDate": "11/10/1978",
+    "id": "badlands"
+  },
+  {
+    "name": "Big Bend",
+    "location": "Texas",
+    "maxElevation": 7832,
+    "minElevation": 1800,
+    "size": 80116321,
+    "establishedDate": "6/12/1944",
+    "id": "big_bend"
+  },
+  {
+    "name": "Biscayne",
+    "location": "Florida",
+    "maxElevation": 9,
+    "minElevation": 0,
+    "size": 17297100,
+    "establishedDate": "6/28/1980",
+    "id": "biscayne"
+  },
+  {
+    "name": "Black Canyon of the Gunnison",
+    "location": "Colorado",
+    "maxElevation": 9040,
+    "minElevation": 5440,
+    "size": 3295003,
+    "establishedDate": "10/21/1999",
+    "id": "black_canyon_of_the_gunnison"
+  },
+  {
+    "name": "Bryce Canyon",
+    "location": "Utah",
+    "maxElevation": 9115,
+    "minElevation": 6565,
+    "size": 3583508,
+    "establishedDate": "2/25/1928",
+    "id": "bryce_canyon"
+  },
+  {
+    "name": "Canyonlands",
+    "location": "Utah",
+    "maxElevation": 7120,
+    "minElevation": 3730,
+    "size": 33759783,
+    "establishedDate": "9/12/1964",
+    "id": "canyonlands"
+  },
+  {
+    "name": "Capitol Reef",
+    "location": "Utah",
+    "maxElevation": 8960,
+    "minElevation": 3877,
+    "size": 24190426,
+    "establishedDate": "12/18/1971",
+    "id": "capitol_reef"
+  },
+  {
+    "name": "Carlsbad Caverns",
+    "location": "New Mexico",
+    "maxElevation": 6535,
+    "minElevation": 3596,
+    "size": 4676645,
+    "establishedDate": "5/14/1930",
+    "id": "carlsbad_caverns"
+  },
+  {
+    "name": "Channel Islands",
+    "location": "California",
+    "maxElevation": 1812,
+    "minElevation": 0,
+    "size": 24956100,
+    "establishedDate": "3/5/1980",
+    "id": "channel_islands"
+  },
+  {
+    "name": "Congaree",
+    "location": "California",
+    "maxElevation": 140,
+    "minElevation": 80,
+    "size": 2654586,
+    "establishedDate": "11/10/2003",
+    "id": "congaree"
+  },
+  {
+    "name": "Crater Lake",
+    "location": "Oregon",
+    "maxElevation": 8929,
+    "minElevation": 3990,
+    "size": 18322405,
+    "establishedDate": "5/22/1902",
+    "id": "crater_lake"
+  },
+  {
+    "name": "Cuyahoga Valley",
+    "location": "Ohio",
+    "maxElevation": 1164,
+    "minElevation": 590,
+    "size": 3286073,
+    "establishedDate": "10/11/2000",
+    "id": "cuyahoga_valley"
+  },
+  {
+    "name": "Death Valley",
+    "location": "Nevada, California",
+    "maxElevation": 11049,
+    "minElevation": 279,
+    "size": 337240196,
+    "establishedDate": "10/31/1994",
+    "id": "death_valley"
+  },
+  {
+    "name": "Denali",
+    "location": "Alaska",
+    "maxElevation": 20310,
+    "minElevation": 240,
+    "size": 474091172,
+    "establishedDate": "2/26/1917",
+    "id": "denali"
+  },
+  {
+    "name": "Dry Tortugas",
+    "location": "Florida",
+    "maxElevation": 10,
+    "minElevation": 0,
+    "size": 6470122,
+    "establishedDate": "10/26/1992",
+    "id": "dry_tortugas"
+  },
+  {
+    "name": "Everglades",
+    "location": "Florida",
+    "maxElevation": 20,
+    "minElevation": 0,
+    "size": 150853790,
+    "establishedDate": "5/30/1934",
+    "id": "everglades"
+  },
+  {
+    "name": "Gates of the Arctic",
+    "location": "Alaska",
+    "maxElevation": 8276,
+    "minElevation": 280,
+    "size": 752389774,
+    "establishedDate": "12/2/1980",
+    "id": "gates_of_the_arctic"
+  },
+  {
+    "name": "Glacier",
+    "location": "Montana",
+    "maxElevation": 10466,
+    "minElevation": 3150,
+    "size": 101357241,
+    "establishedDate": "5/11/1910",
+    "id": "glacier"
+  },
+  {
+    "name": "Glacier Bay",
+    "location": "Alaska",
+    "maxElevation": 15300,
+    "minElevation": 0,
+    "size": 322484031,
+    "establishedDate": "12/2/1980",
+    "id": "glacier_bay"
+  },
+  {
+    "name": "Grand Canyon",
+    "location": "Arizona",
+    "maxElevation": 9165,
+    "minElevation": 1173,
+    "size": 121740332,
+    "establishedDate": "2/26/1919",
+    "id": "grand_canyon"
+  },
+  {
+    "name": "Grand Teton",
+    "location": "Wyoming",
+    "maxElevation": 9165,
+    "minElevation": 1173,
+    "size": 30999466,
+    "establishedDate": "2/26/1929",
+    "id": "grand_teton"
+  },
+  {
+    "name": "Great Basin",
+    "location": "Nevada",
+    "maxElevation": 13065,
+    "minElevation": 6195,
+    "size": 7718000,
+    "establishedDate": "10/27/1986",
+    "id": "great_basin"
+  },
+  {
+    "name": "Great Sand Dunes",
+    "location": "Colorado",
+    "maxElevation": 13610,
+    "minElevation": 7520,
+    "size": 4298374,
+    "establishedDate": "9/13/2004",
+    "id": "great_sand_dunes"
+  },
+  {
+    "name": "Great Smoky Mountains",
+    "location": "North Carolina, Tennessee",
+    "maxElevation": 6643,
+    "minElevation": 874,
+    "size": 52149013,
+    "establishedDate": "6/15/1934",
+    "id": "great_smoky_mountains"
+  },
+  {
+    "name": "Guadalupe Mountains",
+    "location": "Texas",
+    "maxElevation": 8749,
+    "minElevation": 3636,
+    "size": 8641597,
+    "establishedDate": "10/15/1966",
+    "id": "guadalupe_mountains"
+  },
+  {
+    "name": "Haleakalā",
+    "location": "Hawaii",
+    "maxElevation": 10023,
+    "minElevation": 0,
+    "size": 2909367,
+    "establishedDate": "8/1/1916",
+    "id": "haleakalā"
+  },
+  {
+    "name": "Hawaii Volcanoes",
+    "location": "Hawaii",
+    "maxElevation": 13679,
+    "minElevation": 0,
+    "size": 32343138,
+    "establishedDate": "8/1/1916",
+    "id": "hawaii_volcanoes"
+  },
+  {
+    "name": "Hot Springs",
+    "location": "Arkansas",
+    "maxElevation": 1405,
+    "minElevation": 415,
+    "size": 554975,
+    "establishedDate": "4/20/1832",
+    "id": "hot_springs"
+  },
+  {
+    "name": "Isle Royale",
+    "location": "Michigan",
+    "maxElevation": 1394,
+    "minElevation": 600,
+    "size": 57179011,
+    "establishedDate": "4/3/1940",
+    "id": "isle_royale"
+  },
+  {
+    "name": "Joshua Tree",
+    "location": "California",
+    "maxElevation": 5813,
+    "minElevation": 1780,
+    "size": 78974547,
+    "establishedDate": "10/31/1994",
+    "id": "joshua_tree"
+  },
+  {
+    "name": "Katmai",
+    "location": "Alaska",
+    "maxElevation": 7606,
+    "minElevation": 0,
+    "size": 367452968,
+    "establishedDate": "12/2/1980",
+    "id": "katmai"
+  },
+  {
+    "name": "Kenai Fjords",
+    "location": "Alaska",
+    "maxElevation": 6450,
+    "minElevation": 0,
+    "size": 66998299,
+    "establishedDate": "12/2/1980",
+    "id": "kenai_fjords"
+  },
+  {
+    "name": "Kings Canyon",
+    "location": "California",
+    "maxElevation": 14242,
+    "minElevation": 3480,
+    "size": 46190120,
+    "establishedDate": "3/4/1940",
+    "id": "kings_canyon"
+  },
+  {
+    "name": "Kobuk Valley",
+    "location": "Alaska",
+    "maxElevation": 4760,
+    "minElevation": 40,
+    "size": 175071650,
+    "establishedDate": "12/2/1980",
+    "id": "kobuk_valley"
+  },
+  {
+    "name": "Lake Clark",
+    "location": "Alaska",
+    "maxElevation": 10197,
+    "minElevation": 0,
+    "size": 261973321,
+    "establishedDate": "12/2/1980",
+    "id": "lake_clark"
+  },
+  {
+    "name": "Lassen Volcanic",
+    "location": "California",
+    "maxElevation": 10457,
+    "minElevation": 5275,
+    "size": 10637236,
+    "establishedDate": "8/9/1916",
+    "id": "lassen_volcanic"
+  },
+  {
+    "name": "Mammoth Cave",
+    "location": "Kentucky",
+    "maxElevation": 925,
+    "minElevation": 421,
+    "size": 5283019,
+    "establishedDate": "7/1/1941",
+    "id": "mammoth_cave"
+  },
+  {
+    "name": "Mesa Verde",
+    "location": "Colorado",
+    "maxElevation": 8571,
+    "minElevation": 6015,
+    "size": 5212193,
+    "establishedDate": "6/29/1906",
+    "id": "mesa_verde"
+  },
+  {
+    "name": "Mount Rainier",
+    "location": "Washington",
+    "maxElevation": 14411,
+    "minElevation": 1610,
+    "size": 23562500,
+    "establishedDate": "3/2/1899",
+    "id": "mount_rainier"
+  },
+  {
+    "name": "North Cascades",
+    "location": "Washington",
+    "maxElevation": 9206,
+    "minElevation": 605,
+    "size": 50478094,
+    "establishedDate": "10/2/1968",
+    "id": "north_cascades"
+  },
+  {
+    "name": "Olympic",
+    "location": "Washington",
+    "maxElevation": 7962,
+    "minElevation": 0,
+    "size": 92265086,
+    "establishedDate": "6/29/1938",
+    "id": "olympic"
+  },
+  {
+    "name": "Petrified Forest",
+    "location": "Arizona",
+    "maxElevation": 6234,
+    "minElevation": 5200,
+    "size": 9353257,
+    "establishedDate": "12/9/1962",
+    "id": "petrified_forest"
+  },
+  {
+    "name": "Pinnacles",
+    "location": "California",
+    "maxElevation": 3304,
+    "minElevation": 824,
+    "size": 2660573,
+    "establishedDate": "1/10/2013",
+    "id": "pinnacles"
+  },
+  {
+    "name": "Redwood",
+    "location": "California",
+    "maxElevation": 3170,
+    "minElevation": 0,
+    "size": 11251205,
+    "establishedDate": "10/2/1968",
+    "id": "redwood"
+  },
+  {
+    "name": "Rocky Mountain",
+    "location": "Colorado",
+    "maxElevation": 14259,
+    "minElevation": 7630,
+    "size": 26582841,
+    "establishedDate": "1/26/1915",
+    "id": "rocky_mountain"
+  },
+  {
+    "name": "Saguaro",
+    "location": "Arizona",
+    "maxElevation": 8666,
+    "minElevation": 2180,
+    "size": 9143971,
+    "establishedDate": "10/14/1994",
+    "id": "saguaro"
+  },
+  {
+    "name": "Sequoia",
+    "location": "California",
+    "maxElevation": 14505,
+    "minElevation": 1360,
+    "size": 40405117,
+    "establishedDate": "9/25/1890",
+    "id": "sequoia"
+  },
+  {
+    "name": "Shenandoah",
+    "location": "Virginia",
+    "maxElevation": 4051,
+    "minElevation": 530,
+    "size": 19904523,
+    "establishedDate": "5/22/1926",
+    "id": "shenandoah"
+  },
+  {
+    "name": "Theodore Roosevelt",
+    "location": "North Dakota",
+    "maxElevation": 0,
+    "minElevation": 0,
+    "size": 7044689,
+    "establishedDate": "11/10/1978",
+    "id": "theodore_roosevelt"
+  },
+  {
+    "name": "Virgin Islands",
+    "location": "Virgin Islands",
+    "maxElevation": 1277,
+    "minElevation": 0,
+    "size": 1468887,
+    "establishedDate": "8/2/1956",
+    "id": "virgin_islands"
+  },
+  {
+    "name": "Voyageurs",
+    "location": "Minnesota",
+    "maxElevation": 1410,
+    "minElevation": 1108,
+    "size": 21820017,
+    "establishedDate": "1/8/1971",
+    "id": "voyageurs"
+  },
+  {
+    "name": "Wind Cave",
+    "location": "South Dakota",
+    "maxElevation": 5013,
+    "minElevation": 3559,
+    "size": 2829503,
+    "establishedDate": "1/9/1903",
+    "id": "wind_cave"
+  },
+  {
+    "name": "Wrangell –St. Elias",
+    "location": "Alaska",
+    "maxElevation": 18008,
+    "minElevation": 0,
+    "size": 832314759,
+    "establishedDate": "12/2/1980",
+    "id": "wrangell_–st._elias"
+  },
+  {
+    "name": "Yellowstone",
+    "location": "Wyoming",
+    "maxElevation": 11358,
+    "minElevation": 5282,
+    "size": 221979071,
+    "establishedDate": "3/1/1872",
+    "id": "yellowstone"
+  },
+  {
+    "name": "Yosemite",
+    "location": "California",
+    "maxElevation": 13114,
+    "minElevation": 2105,
+    "size": 76126619,
+    "establishedDate": "10/1/1890",
+    "id": "yosemite"
+  },
+  {
+    "name": "Zion",
+    "location": "Utah",
+    "maxElevation": 8726,
+    "minElevation": 3640,
+    "size": 14659760,
+    "establishedDate": "11/19/1919",
+    "id": "zion"
+  }
+]

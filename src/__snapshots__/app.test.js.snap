@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders 1`] = `
+<div
+  className="app_19tckwa"
+>
+  <Tabs
+    onChange={[Function]}
+    value={0}
+  >
+    <Tab
+      label="All Parks"
+      value={0}
+    />
+    <Tab
+      label="Favorites"
+      value={1}
+    />
+  </Tabs>
+  <ParkList
+    favoriteParks={Set {}}
+    onToggleFavorite={[Function]}
+    parks={
+      Array [
+        Object {
+          "id": 1,
+          "name": "Park 1",
+        },
+        Object {
+          "id": 2,
+          "name": "Park 2",
+        },
+      ]
+    }
+  />
+</div>
+`;
