@@ -23,12 +23,12 @@ module.exports = (env = {}) => {
     module: {
       rules: [
         {
-          test: /\.(j|t)sx?$/,
+          test: /\.tsx?$/,
           use: [
             {
               loader: 'ts-loader',
               options: {
-                transpileOnly: true
+                configFile: resolve(__dirname, './tsconfig.build.json')
               }
             }
           ]
