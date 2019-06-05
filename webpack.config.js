@@ -1,59 +1,63 @@
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const { join, resolve } = require('path');
+const HtmlWebpackPlugin = require('html-webpack-plugin');
+const CopyWebpackPlugin = require('copy-webpack-plugin');
 
-const modes = {
-  dev: 'development',
-  prod: 'production'
-};
+const srcDir = resolve(__dirname, './src');
+const distDir = resolve(__dirname, './dist');
+const publicDir = resolve(__dirname, './public');
 
-const srcDir = resolve(__dirname, 'src');
-const outDir = resolve(__dirname, 'dist');
+const appIndexFile = join(publicDir, 'index.html');
 
-module.exports = (env = modes.dev) => {
-  const isProd = env === modes.prod;
+module.exports = (env = {}) => {
+  const isProduction = Boolean(env.prod);
 
   return {
-    mode: isProd ? modes.prod : modes.dev,
-    entry: [
-      require.resolve('normalize.css'),
-      join(srcDir, 'global.css'),
-      join(srcDir, 'index.js')
-    ],
+    mode: isProduction ? 'production' : 'development',
+    devtool: isProduction ? 'source-map' : 'eval',
+    entry: join(srcDir, 'index.tsx'),
     output: {
-      filename: isProd ? '[name].[chunkhash].js' : '[name].js',
-      path: outDir
+      path: distDir,
+      publicPath: '/',
+      filename: isProduction ? '[name].[chunkhash].js' : '[name].js'
     },
     module: {
       rules: [
         {
-          test: /\.js$/,
-          exclude: /(node_modules|bower_components)/,
-          use: {
-            loader: 'babel-loader'
-          }
-        },
-        {
-          test: /\.css$/,
+          test: /\.(j|t)sx?$/,
           use: [
-            isProd ? MiniCssExtractPlugin.loader : 'style-loader',
-            'css-loader'
+            {
+              loader: 'ts-loader',
+              options: {
+                transpileOnly: true
+              }
+            }
           ]
         }
       ]
     },
+    resolve: {
+      extensions: ['.ts', '.tsx', '.mjs', '.js']
+    },
     plugins: [
+      new CopyWebpackPlugin([
+        {
+          from: '**/*',
+          to: distDir,
+          context: publicDir,
+          ignore: [appIndexFile]
+        }
+      ]),
       new HtmlWebpackPlugin({
-        template: join(srcDir, 'index.html')
-      }),
-      new MiniCssExtractPlugin({
-        filename: isProd ? '[name].[hash].css' : '[name].css',
-        chunkFilename: isProd ? '[id].[hash].css' : '[id].css'
+        template: appIndexFile
       })
     ],
     devServer: {
+      port: 8080,
+      publicPath: '/',
       historyApiFallback: true,
-      contentBase: [outDir, resolve(__dirname, 'public')]
+      stats: {
+        modules: false
+      }
     }
   };
 };
