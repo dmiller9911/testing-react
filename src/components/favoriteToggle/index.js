@@ -1,1 +1,0 @@
-export { FavoriteToggle } from './favoriteToggle';
